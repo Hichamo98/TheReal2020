@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="RealMeFormdbContext-Web.config Connection String" description="RealMeFormdbContext Chaîne de connexion utilisée dans web.config par l’application pour accéder à la base de données." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=RealMeFormdbContext-20201014163036; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|RealMeFormdbContext-20201014163036.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\RealMeFormulaire\\RealMeForm\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RealMeFormdbContext']/@connectionString" />
+  </parameter>
+</parameters>
